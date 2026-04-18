@@ -41,3 +41,5 @@ print("Division of number 2 by number 1 is: ",Division)
 Multiply = num1*num2
 print("Multiplication of num1 and num2 is :", Multiply)
 
+powerof = num1 ** num2
+print(" Exponential of num1 ** num2 i.e. num1 to the power of num2 is : ", powerof)
