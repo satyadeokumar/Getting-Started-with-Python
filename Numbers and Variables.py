@@ -15,3 +15,6 @@ print(name)
 #Multiple assignment - same value can be assigned to multiple variables
 a = b = c = 100
 print("Values of a, b and c :",a, b, c)
+#Assign different values - Different value to multiple variables
+x, y, z = 1, 2.5, "Satya"
+print("Values of x, y and z :",x, y, z)
