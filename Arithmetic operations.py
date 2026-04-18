@@ -38,3 +38,6 @@ print("Sum of both numbers is: ",Addition)
 Division = num2/num1
 print("Division of number 2 by number 1 is: ",Division)
 
+Multiply = num1*num2
+print("Multiplication of num1 and num2 is :", Multiply)
+
