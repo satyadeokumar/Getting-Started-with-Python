@@ -24,3 +24,8 @@ a, b = 5, 10
 a, b = b, a
 print("Values of a and b after swapping a with b:", a, b)
 
+# Counting Length of a word in python. It counts space as a character
+word = "TestPython"
+word2 = "Test Python"
+length = len(word), len(word2)
+print("Length of 'TestPython' and 'Test Python' are :", length)
