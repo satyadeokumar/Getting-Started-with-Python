@@ -18,3 +18,9 @@ print("Values of a, b and c :",a, b, c)
 #Assign different values - Different value to multiple variables
 x, y, z = 1, 2.5, "Satya"
 print("Values of x, y and z :",x, y, z)
+
+# Swap variables
+a, b = 5, 10
+a, b = b, a
+print("Values of a and b after swapping a with b:", a, b)
+
