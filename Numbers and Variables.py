@@ -6,6 +6,7 @@ A variable name cannot start with a digit
 Variable names are case-sensitive
 Avoid using Python keywords like if, else, for as variable names
 Python variables do not require explicit declaration of type
+
 """
 x = 10
 name = "My Name"
