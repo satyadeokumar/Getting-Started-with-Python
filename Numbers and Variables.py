@@ -31,4 +31,5 @@ word2 = "Test Python"
 length = len(word), len(word2)
 print("Length of 'TestPython' and 'Test Python' are :", length)
 
-# Adding few lines
+# Adding few lines prior to merge
+
