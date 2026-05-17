@@ -6,6 +6,8 @@ try:
         print("Header Values are :",f.getheaders())
         print("Requested url is :",f.geturl())
         print("Contents of the url are  :",f.read())
+        content = f.read().decode('utf-8')
+        print("Contents of the url are  :",content)
        # print("Text Contents of the url are  :",f2.text)
 
 except urllib.error.URLError as e:
