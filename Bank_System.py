@@ -5,10 +5,10 @@ provide required output.Hint: Use if else statements and functions'''
 def withdrawl():
     amount = int(input("Enter the amount for withdrawal:"))
     if amount > 1000:
-        print("Insufficicent Fund ! Transaction Declined")
+        print("Insufficient Fund ! Transaction Declined")
         return withdrawl()
     else:
-        print("Please withdrawl and leave the counter aft1er couting the cash of Rs:",amount,"\n Remaining Balance is",1000 - amount)
+        print("Please withdraw and leave the counter after counting the cash of Rs:",amount,"\n Remaining Balance is",1000 - amount)
         return bank()
 
 def cashCredit():
@@ -17,9 +17,9 @@ def cashCredit():
 
     if amount > 0:
         currentBalance += amount
-        print("The Depoisted Amount is Rs:",amount,"\n The Current Balance",currentBalance)
+        print("The Deposited Amount is Rs:",amount,"\n The Current Balance",currentBalance)
     if amount == 0:
-        print("Please enter the valid amount")
+        print("Please enter a valid amount")
     else:
         print("Thank you for Banking with us!")
         return bank()
@@ -41,7 +41,7 @@ def exit():
     print("Thank you for Banking with us! Have a Nice Day")
 
 def bank():
-    print("\nWelcome to Dell Bank\n\nPlease select the your Banking service from the below list:\n\n 1. Cash Withdrawal\n 2. Cash Depoist\n 3. Change Pin\n 4. Exit\n")
+    print("\nWelcome to Best Bank\n\nPlease select the your Banking service from the below list:\n\n 1. Cash Withdrawal\n 2. Cash Depoist\n 3. Change Pin\n 4. Exit\n")
     option = int(input("Enter your Choice: "))
     if option == 1:
         print()
