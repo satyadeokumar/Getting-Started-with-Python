@@ -72,6 +72,7 @@ Getting-Started-with-Python/
 ├── Arithmetic operations.py
 ├── Bank_System.py
 ├── Count_Digita_Letters.py
+├── Find even numvers from a range.py
 ├── Get Details from a Website.py
 ├── Numbers and Variables.py
 ├── Print_Function.py
@@ -114,11 +115,15 @@ A simple banking program to practice input, conditionals, and program flow.
 File: `Count_Digita_Letters.py`  
 A script for counting letters and digits in a text string.
 
-### 6. Sort Words From a String
+### 6. Find Even Numbers From a Range
+File: `Find even numvers from a range.py`  
+Finds and prints all even numbers inside an inclusive numeric range.
+
+### 7. Sort Words From a String
 File: `Sort_Words_From_String.py`  
 Learn how to split text into words and sort them alphabetically.
 
-### 7. Get Details from a Website
+### 8. Get Details from a Website
 File: `Get Details from a Website.py`  
 An example of working with website or text data and extracting details.
 
