@@ -10,9 +10,7 @@ print("Given range is:", m, "to", n)
 print("The numbers in given range with all digits even are: ")
 
 arr=[]      #Creating an empty list
-
 for i in range(m,n+1):      #Setting a for loop from m to n
-
     num=i           #Taking a variable num to work upon
     isValid=True    #Setting a boolean variable to True
     #Extract each digit of num and check if it is even
