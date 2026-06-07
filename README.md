@@ -69,9 +69,13 @@ No coding experience required.
 ```
 Getting-Started-with-Python/
 │
+├── Arithmetic operations.py
+├── Bank_System.py
+├── Count_Digita_Letters.py
+├── Get Details from a Website.py
+├── Numbers and Variables.py
 ├── Print_Function.py
-├── Numbers_and_Variables.py
-├── Arithmetic_Operations.py
+├── Sort_Words_From_String.py
 └── README.md
 ```
 
@@ -85,7 +89,7 @@ Learn to display output with `print()`:
 - Multiple values
 
 ### 2. Numbers and Variables
-File: `Numbers_and_Variables.py`  
+File: `Numbers and Variables.py`  
 Covers:
 - Data types: int, float, str
 - Variable declaration
@@ -93,7 +97,7 @@ Covers:
 - Basic input with `input()`
 
 ### 3. Arithmetic Operations
-File: `Arithmetic_Operations.py`  
+File: `Arithmetic operations.py`  
 Basic math:
 - Addition: `+`
 - Subtraction: `-`
@@ -101,6 +105,22 @@ Basic math:
 - Division: `/`
 - Modulus: `%`
 - Exponentiation: `**`
+
+### 4. Bank System Example
+File: `Bank_System.py`  
+A simple banking program to practice input, conditionals, and program flow.
+
+### 5. Count Digits and Letters
+File: `Count_Digita_Letters.py`  
+A script for counting letters and digits in a text string.
+
+### 6. Sort Words From a String
+File: `Sort_Words_From_String.py`  
+Learn how to split text into words and sort them alphabetically.
+
+### 7. Get Details from a Website
+File: `Get Details from a Website.py`  
+An example of working with website or text data and extracting details.
 
 ## 🧭 How to Use This Repository
 1. Clone the repo:
