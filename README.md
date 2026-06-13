@@ -1,7 +1,7 @@
 # Getting Started with Python
 
 A beginner-friendly guide to start your Python programming journey.    
-This repository includes simple, well-explained examples covering Python fundamentals—ideal for absolute beginners.....
+This repository includes simple, well-explained examples covering Python fundamentals—ideal for absolute beginners..
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
