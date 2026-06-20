@@ -32,14 +32,30 @@ print(math.e)              # 2.718281828459045
 num1 = 5
 num2 = 10
 
-Addition = num1 + num2
-print("Sum of both numbers is: ",Addition)
+addition = num1 + num2
+subtraction = num2 - num1
+multiplication = num1 * num2
+division = num2 / num1
+floor_division = num2 // num1
+modulus = num2 % num1
+power = num1 ** num2
 
-Division = num2/num1
-print("Division of number 2 by number 1 is: ",Division)
+print("Sum of both numbers is:", addition)
+print("Difference of the numbers is:", subtraction)
+print("Multiplication of the numbers is:", multiplication)
+print("Division of number 2 by number 1 is:", division)
+print("Floor division of number 2 by number 1 is:", floor_division)
+print("Remainder when dividing number 2 by number 1 is:", modulus)
+print("num1 raised to the power of num2 is:", power)
 
-Multiply = num1*num2
-print("Multiplication of num1 and num2 is :", Multiply)
+# Extra math examples using the built-in math module
+import math
 
-powerof = num1 ** num2
-print(" Exponential of num1 ** num2 i.e. num1 to the power of num2 is : ", powerof)
+print("Square root of 16 is:", math.sqrt(16))
+print("2 to the power of 3 is:", math.pow(2, 3))
+print("Factorial of 5 is:", math.factorial(5))
+print("GCD of 12 and 18 is:", math.gcd(12, 18))
+print("Rounded up value of 4.3 is:", math.ceil(4.3))
+print("Rounded down value of 4.7 is:", math.floor(4.7))
+print("Value of pi is:", math.pi)
+print("Value of e is:", math.e)
