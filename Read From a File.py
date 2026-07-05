@@ -20,3 +20,8 @@ while line:
     print(line.strip())
     line = file.readline()
 file.close()
+
+file = open(r"C:\devhome\Github\Getting-Started-with-Python\ExampleFile.txt", "r")
+content = file.read(10)
+print(content)
+file.close()
