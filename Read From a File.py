@@ -13,3 +13,10 @@ file = open(r"C:\devhome\Github\Getting-Started-with-Python\ExampleFile.txt", "r
 for line in file:
     print(line.strip())  # .strip() to remove newline characters
 file.close()
+
+file = open(r"C:\devhome\Github\Getting-Started-with-Python\ExampleFile.txt", "r")
+line = file.readline()
+while line:
+    print(line.strip())
+    line = file.readline()
+file.close()
