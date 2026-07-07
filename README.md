@@ -48,11 +48,15 @@ Getting-Started-with-Python/
 ├── Arithmetic operations.py
 ├── Bank_System.py
 ├── Count_Digita_Letters.py
+├── ExampleFile.txt
 ├── Find even numvers from a range.py
 ├── Get Details from a Website.py
 ├── Numbers and Variables.py
 ├── Print_Function.py
+├── Read From a File.py
 ├── Sort_Words_From_String.py
+├── TemperatureConverter.py
+├── Write in a File.py
 └── README.md
 ```
 
@@ -81,6 +85,18 @@ This file teaches you how to split text into words and sort them.
 
 ### 8. `Get Details from a Website.py`
 This file introduces basic web data handling and shows how to read page content.
+
+### 9. `Read From a File.py`
+This file explains how to open and read text from a file in Python.
+
+### 10. `Write in a File.py`
+This file shows how to create or update a text file and save new content.
+
+### 11. `TemperatureConverter.py`
+This file teaches how to convert values between Celsius and Fahrenheit.
+
+### 12. `ExampleFile.txt`
+A sample text file used for practicing file reading and writing.
 
 ## 📖 How to Learn Effectively
 Here is a simple way to study these files:
