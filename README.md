@@ -57,6 +57,7 @@ Getting-Started-with-Python/
 ├── Sort_Words_From_String.py
 ├── TemperatureConverter.py
 ├── Write in a File.py
+├── downloaded_images/
 └── README.md
 ```
 
@@ -72,7 +73,7 @@ This file helps you understand variables, values, and how Python stores informat
 This file shows how to use operators like `+`, `-`, `*`, `/`, and `%` for calculations.
 
 ### 4. `Bank_System.py`
-This file demonstrates how to ask for user input and make decisions using conditions.
+This file uses a simple banking menu with functions for withdraw, deposit, change PIN, and exit. It practices user input, conditions, and function calls.
 
 ### 5. `Count_Digita_Letters.py`
 This file teaches you how to count letters and digits in a sentence or word.
@@ -84,19 +85,22 @@ This file shows how to check numbers in a range and print only the even ones.
 This file teaches you how to split text into words and sort them.
 
 ### 8. `Get Details from a Website.py`
-This file introduces basic web data handling and shows how to read page content.
+This file fetches a webpage, prints HTTP response details, shows HTML preview, and attempts to download image files.
 
 ### 9. `Read From a File.py`
-This file explains how to open and read text from a file in Python.
+This file explains how to open and read text from a file, read line by line, and parse CSV data.
 
 ### 10. `Write in a File.py`
-This file shows how to create or update a text file and save new content.
+This file shows how to write text to a new file and then read it back.
 
 ### 11. `TemperatureConverter.py`
-This file teaches how to convert values between Celsius and Fahrenheit.
+This file teaches how to convert Celsius values to Fahrenheit using a math formula.
 
 ### 12. `ExampleFile.txt`
-A sample text file used for practicing file reading and writing.
+A sample text file used by `Read From a File.py` for practicing file reading.
+
+### 13. `downloaded_images/`
+A folder where images downloaded by `Get Details from a Website.py` are saved.
 
 ## 📖 How to Learn Effectively
 Here is a simple way to study these files:
