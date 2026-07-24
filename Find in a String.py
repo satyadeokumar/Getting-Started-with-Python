@@ -14,3 +14,9 @@ if position != -1:
    print(f"'{letter}' found at index {position}")
 else:
    print(f"'{letter}' not found")
+
+#Finding All Occurrences If you need all positions of a letter, loop with enumerate()
+word = "python is a programming language"
+letter = "o"
+positions = [i for i, ch in enumerate(word) if ch == letter]
+print(positions) # [4]
