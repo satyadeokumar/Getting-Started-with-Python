@@ -50,6 +50,7 @@ Getting-Started-with-Python/
 ├── Count_Digita_Letters.py
 ├── ExampleFile.txt
 ├── Find even numvers from a range.py
+├── Find in a String.py
 ├── Get Details from a Website.py
 ├── Numbers and Variables.py
 ├── Print_Function.py
@@ -81,25 +82,28 @@ This file teaches you how to count letters and digits in a sentence or word.
 ### 6. `Find even numvers from a range.py`
 This file shows how to check numbers in a range and print only the even ones.
 
-### 7. `Sort_Words_From_String.py`
+### 7. `Find in a String.py`
+This file teaches you how to use the `find()` method to search for characters or substrings within a text and get their positions (indices).
+
+### 8. `Sort_Words_From_String.py`
 This file teaches you how to split text into words and sort them.
 
-### 8. `Get Details from a Website.py`
+### 9. `Get Details from a Website.py`
 This file fetches a webpage, prints HTTP response details, shows HTML preview, and attempts to download image files.
 
-### 9. `Read From a File.py`
+### 10. `Read From a File.py`
 This file explains how to open and read text from a file, read line by line, and parse CSV data.
 
-### 10. `Write in a File.py`
+### 11. `Write in a File.py`
 This file shows how to write text to a new file and then read it back.
 
-### 11. `TemperatureConverter.py`
+### 12. `TemperatureConverter.py`
 This file teaches how to convert Celsius values to Fahrenheit using a math formula.
 
-### 12. `ExampleFile.txt`
+### 13. `ExampleFile.txt`
 A sample text file used by `Read From a File.py` for practicing file reading.
 
-### 13. `downloaded_images/`
+### 14. `downloaded_images/`
 A folder where images downloaded by `Get Details from a Website.py` are saved.
 
 ## 📖 How to Learn Effectively
