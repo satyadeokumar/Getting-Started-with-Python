@@ -7,6 +7,7 @@ print(x)
 print(y)
 print(z)
 
+# Find by position
 word = "python is a programming language"
 letter = "a"
 position = word.find(letter) # returns 2 (0-based index)
