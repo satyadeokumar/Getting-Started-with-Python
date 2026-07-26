@@ -21,3 +21,4 @@ word = "python is a programming language"
 letter = "o"
 positions = [i for i, ch in enumerate(word) if ch == letter]
 print(positions) # [4]
+

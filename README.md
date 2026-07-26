@@ -5,6 +5,7 @@ Welcome to your first Python learning journey! This repository contains simple, 
 ## 📚 Table of Contents
 - [Why This Repository](#why-this-repository)
 - [What You Need Before Starting](#what-you-need-before-starting)
+- [How to Install Python](#how-to-install-python)
 - [How to Run Python Programs](#how-to-run-python-programs)
 - [Files in This Repository](#files-in-this-repository)
 - [What Each Program Teaches](#what-each-program-teaches)
@@ -21,6 +22,52 @@ Make sure you have:
 - A basic understanding of how to open files and use a terminal
 
 > If you are new to coding, don't worry. You can learn by reading the code, running it, and making small changes.
+
+## 🐍 How to Install Python
+If you don't have Python installed on your machine, follow these steps:
+
+### Windows
+1. Go to [python.org](https://www.python.org/downloads/)
+2. Click the **"Download Python"** button (it will download the latest version)
+3. Run the installer executable file
+4. **Important:** Check the box that says **"Add Python to PATH"** before clicking Install
+5. Click **"Install Now"**
+6. Wait for the installation to complete
+7. Click **"Close"** when done
+
+**Verify Installation:**
+- Open Command Prompt (Press `Win + R`, type `cmd`, press Enter)
+- Type: `python --version`
+- You should see the Python version number (e.g., `Python 3.12.1`)
+
+### macOS
+1. Go to [python.org](https://www.python.org/downloads/)
+2. Click the **"Download Python"** button for macOS
+3. Run the installer package
+4. Follow the installation wizard steps
+5. When complete, Python will be installed
+
+**Verify Installation:**
+- Open Terminal (Press `Cmd + Space`, type `terminal`, press Enter)
+- Type: `python3 --version`
+- You should see the Python version number
+
+### Linux (Ubuntu/Debian)
+1. Open Terminal
+2. Type the following command:
+   ```bash
+   sudo apt update
+   sudo apt install python3 python3-pip
+   ```
+3. Press Enter and wait for the installation to complete
+
+**Verify Installation:**
+- Type: `python3 --version`
+- You should see the Python version number
+
+### Troubleshooting
+- **"python: command not found"** → Python may not be in your PATH. Try `python3` instead.
+- **Still having issues?** → Reinstall Python and make sure to check "Add Python to PATH" (Windows only).
 
 ## ▶️ How to Run Python Programs
 There are two common ways to run a Python file:
