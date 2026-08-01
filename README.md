@@ -10,7 +10,8 @@ Welcome to your first Python learning journey! This repository contains simple, 
 - [Files in This Repository](#files-in-this-repository)
 - [What Each Program Teaches](#what-each-program-teaches)
 - [How to Learn Effectively](#how-to-learn-effectively)
-- [Next Learning Goals](#next-learning-goals)
+- [Python Best Practices](#-python-best-practices)
+- [Next Learning Goals](#-next-learning-goals)
 
 ## 🌟 Why This Repository
 Python is a great language for beginners because it is easy to read and write. This repo is designed to help you practice real coding examples without overwhelming you.
@@ -160,6 +161,135 @@ Here is a simple way to study these files:
 3. Change one value and run it again.
 4. Try to predict what the output will be before running it.
 5. Write your own small example based on what you learned.
+
+## ✨ Python Best Practices
+
+### 1. Use Meaningful Variable Names
+❌ **Bad:**
+```python
+x = 10
+y = 20
+z = x + y
+```
+
+✅ **Good:**
+```python
+age = 10
+years_experience = 20
+total_years = age + years_experience
+```
+
+### 2. Add Comments to Explain Your Code
+```python
+# Calculate the total years of experience
+total_years = age + years_experience
+print(f"Total years: {total_years}")
+```
+
+### 3. Use Constants for Fixed Values
+```python
+# Define constants in UPPERCASE
+PI = 3.14159
+MAX_USERS = 100
+TAX_RATE = 0.08
+```
+
+### 4. Follow the PEP 8 Style Guide
+- Use 4 spaces for indentation (not tabs)
+- Keep lines under 79 characters
+- Use lowercase with underscores for variable names: `user_name` instead of `userName`
+- Use UPPERCASE for constants: `MAX_ATTEMPTS`
+
+### 5. Keep Functions Simple and Focused
+❌ **Bad:**
+```python
+def do_everything():
+    # Read file, process data, save results - too much!
+    pass
+```
+
+✅ **Good:**
+```python
+def read_user_data():
+    # Only reads user data
+    pass
+
+def calculate_total(data):
+    # Only calculates total
+    pass
+
+def save_results(results):
+    # Only saves results
+    pass
+```
+
+### 6. Always Close Files Using Context Manager
+❌ **Bad:**
+```python
+file = open("data.txt", "r")
+content = file.read()
+file.close()  # Easy to forget!
+```
+
+✅ **Good:**
+```python
+with open("data.txt", "r") as file:
+    content = file.read()
+    # File automatically closes here
+```
+
+### 7. Handle Errors with Try-Except
+```python
+try:
+    age = int(input("Enter your age: "))
+except ValueError:
+    print("Please enter a valid number!")
+```
+
+### 8. Use Meaningful Function Names
+- Function names should describe what they do
+- Use verbs: `get_user_data()`, `calculate_total()`, `save_file()`
+- Avoid: `process()`, `handle()`, `do_stuff()`
+
+### 9. Don't Repeat Code - Use Loops and Functions
+❌ **Bad:**
+```python
+print("Hello User 1")
+print("Hello User 2")
+print("Hello User 3")
+```
+
+✅ **Good:**
+```python
+users = ["User 1", "User 2", "User 3"]
+for user in users:
+    print(f"Hello {user}")
+```
+
+### 10. Write Code That's Easy to Read
+- Avoid too many nested loops or conditions
+- Break complex logic into smaller functions
+- Use clear variable names instead of cryptic abbreviations
+- Add whitespace to separate logical sections
+
+### 11. Test Your Code
+- Run your program with different inputs
+- Check for edge cases (empty inputs, very large numbers, etc.)
+- Make sure error handling works
+
+### 12. Use Proper Naming Conventions
+```python
+# Classes use PascalCase
+class BankAccount:
+    pass
+
+# Functions and variables use snake_case
+def withdraw_money():
+    pass
+
+# Constants use UPPER_CASE
+MAX_WITHDRAWAL = 5000
+```
 
 ## 🚀 Next Learning Goals
 After practicing these examples, you can move on to:
