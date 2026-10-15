@@ -51,9 +51,9 @@ if __name__ == '__main__':
         with urllib.request.urlopen(url) as response:
             html = response.read().decode('utf-8', errors='ignore')
 
-            print('Requested URL      :', response.geturl())
-            print('Status Code        :', response.getcode())
-            print('Header Values      :', response.getheaders())
+          ##  print('Requested URL      :', response.geturl())
+          #  print('Status Code        :', response.getcode())
+           # print('Header Values      :', response.getheaders())
 
             print('\nPage Content Preview:')
             print(html[:1000])
